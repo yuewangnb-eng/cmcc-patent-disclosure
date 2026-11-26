@@ -1,0 +1,19 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+__pycache__/
+.venv/
+.env
+.env.*
+# Case work belongs outside this shared skill repository
+/cases/
+/案件目录/
+/01_原始资料/
+/02_检索与对比/
+/03_技术方案与证据/
+/04_交底书/
+/05_提案与审核/
+/99_历史版本/
