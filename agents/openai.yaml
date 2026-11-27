@@ -1,4 +1,4 @@
 interface:
-  display_name: "中国移动专利技术交底书写作助手"
-  short_description: "按中国移动规范润色交底书，通过深度问答完善技术方案并提炼候选保护点"
-  default_prompt: "使用$cmcc-patent-disclosure，依据内置中国移动写作规范处理我的技术交底书；先确认本次采用规范润色还是深度问答。"
+  display_name: "CMCC专利技术交底书写作助手"
+  short_description: "按CMCC规范润色交底书，通过深度问答完善技术方案并提炼候选保护点"
+  default_prompt: "使用$cmcc-patent-disclosure，依据内置CMCC写作规范处理我的技术交底书；先确认本次采用规范润色还是深度问答。"
