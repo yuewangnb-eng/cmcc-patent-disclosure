@@ -13,13 +13,16 @@
 
 技能会尊重用户的手工修改。设计确认、文稿确认、写入文件分别处理，不会因为讨论过一个技术点就自动重写全文。
 
-## 私有仓库共享与访问
+## 公开访问与下载
 
-本仓库为私有仓库，仅有权限的GitHub账号可以查看和下载。仓库所有者可在[访问管理页面](https://github.com/yuewangnb-eng/cmcc-patent-disclosure/settings/access)邀请协作者；受邀者需要先接受邀请。
+本仓库公开提供通用写作方法、技能指令和空白模板。查看、下载ZIP或通过HTTPS克隆不需要受邀，也不需要登录GitHub账号。
 
-安装前先登录自己的GitHub账号，确认能在浏览器打开本仓库。命令行或助手安装时也需要具备该账号的仓库访问权限；只在浏览器登录不代表命令行已完成认证。遇到“Repository not found”或404时，先检查账号、邀请状态和命令行认证。
+- [查看仓库](https://github.com/yuewangnb-eng/cmcc-patent-disclosure)
+- [下载完整技能包（ZIP）](https://github.com/yuewangnb-eng/cmcc-patent-disclosure/archive/refs/heads/main.zip)
 
-不使用命令行的协作者，可以在已登录的浏览器中下载ZIP，再按下面的手动安装说明放入技能目录。不要在提示词、Issue或文档中粘贴访问令牌。
+下载后按下面的说明加载到所用智能体。提交Issue或Pull Request需要登录GitHub；直接修改本仓库仍需要维护者授予权限。
+
+本仓库及其Issue、Pull Request公开可见。真实交底书、案件记录和未公开技术材料请保存在自己的案件工作区，不上传到这里。
 
 ## 安装与加载
 
@@ -40,7 +43,7 @@ SKILL.md位于仓库根目录，技能标识是cmcc-patent-disclosure。
 
 ### 方式二：手动下载技能目录
 
-在已获得仓库访问权限的本地目录执行以下命令，目标目录需尚不存在：
+在本地选择一个存放技能的目录，执行以下命令；目标目录需尚不存在：
 
 ```bash
 git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-patent-disclosure
