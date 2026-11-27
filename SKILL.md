@@ -1,5 +1,5 @@
 ---
-name: cmcc-patent-disclosure
+name: cmcc-patent-writing-assistant
 description: CMCC专利技术交底书写作助手。依据内置模板和写作规范，在保持技术方案的前提下调整交底书结构、文字和格式；或通过内置流程开展深度问答（可联动grill-with-docs），补全技术方案、澄清术语、提炼候选保护点并维护案件记录。适用于交底书规范化、技术方案深化及专家意见处理。
 ---
 

@@ -21,8 +21,8 @@
 向具备仓库访问和技能安装能力的智能体发送：
 
 ```text
-请从https://github.com/yuewangnb-eng/cmcc-patent-disclosure加载或安装技能。
-SKILL.md位于仓库根目录，技能标识是cmcc-patent-disclosure。
+请从https://github.com/yuewangnb-eng/cmcc-patent-writing-assistant加载或安装技能。
+SKILL.md位于仓库根目录，技能标识是cmcc-patent-writing-assistant。
 请使用当前智能体环境支持的技能安装位置和加载方式，保留references和assets目录。
 如已有同名技能，先核对本地修改，不直接覆盖。
 ```
@@ -34,7 +34,7 @@ SKILL.md位于仓库根目录，技能标识是cmcc-patent-disclosure。
 在本地选择一个存放技能的目录，执行以下命令；目标目录需尚不存在：
 
 ```bash
-git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-patent-disclosure
+git clone https://github.com/yuewangnb-eng/cmcc-patent-writing-assistant.git cmcc-patent-writing-assistant
 ```
 
 也可在GitHub选择 **Code → Download ZIP**，解压后保留完整目录。不要只复制`SKILL.md`，`references/`和`assets/`也需要保留。
@@ -77,7 +77,7 @@ git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-paten
 在助手能够访问文稿的项目中发送：
 
 ```text
-使用“CMCC专利技术交底书写作助手”（cmcc-patent-disclosure），进入规范润色模式。
+使用“CMCC专利技术交底书写作助手”（cmcc-patent-writing-assistant），进入规范润色模式。
 当前主稿是我提供的交底书，术语按随附术语表执行。
 先检查全文结构是否符合内置规范，再修改第五部分。
 可以调整章节归属、段落顺序和文字表达，保持技术机制和判断条件不变。
@@ -87,7 +87,7 @@ git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-paten
 需要直接修改时，可以明确授权：
 
 ```text
-使用“CMCC专利技术交底书写作助手”（cmcc-patent-disclosure），规范润色当前交底书的第三、四部分并写入。
+使用“CMCC专利技术交底书写作助手”（cmcc-patent-writing-assistant），规范润色当前交底书的第三、四部分并写入。
 保留技术含义和所有必要条件，写入前重新读取文件，完成后说明差异。
 技术内容有缺口时列出问题，不自行补充。
 ```
@@ -99,7 +99,7 @@ git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-paten
 深度问答会先读材料，再围绕有依赖关系的问题分轮讨论。它不会固定问一套长问卷，也不会把资料中能查到的事实全部交给用户回答。
 
 ```text
-使用“CMCC专利技术交底书写作助手”（cmcc-patent-disclosure），进入深度问答并记录模式。
+使用“CMCC专利技术交底书写作助手”（cmcc-patent-writing-assistant），进入深度问答并记录模式。
 工作目录是我当前打开的案件目录，主稿和术语表已提供。
 先检查技术主线和实施缺口，再与我逐轮讨论，提炼候选核心保护点。
 允许维护技术方案工作记录和术语表；交底书正文确认后再写入。
@@ -109,7 +109,7 @@ git clone https://github.com/yuewangnb-eng/cmcc-patent-disclosure.git cmcc-paten
 只讨论一个技术点也可以：
 
 ```text
-使用“CMCC专利技术交底书写作助手”（cmcc-patent-disclosure），深度讨论当前步骤。
+使用“CMCC专利技术交底书写作助手”（cmcc-patent-writing-assistant），深度讨论当前步骤。
 重点检查输入输出、必要条件、失败后的处理，以及这一步是否为核心机制所必需。
 本轮只在对话中讨论，不创建或修改任何文件。
 外部问答技能不可用时，按本技能内置流程继续。
